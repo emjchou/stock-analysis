@@ -1,0 +1,27 @@
+Sub MacroCheck()
+
+    Dim textMessage As String
+    textMessage = "Hello world!"
+    
+    MsgBox (textMessage)
+
+End Sub
+
+Sub DQAnalysis()
+
+    Worksheets("DQ Analysis").Activate
+    
+    'Using Range method:
+    Range("A1").Value = "DAQO (Ticket: DQ)"
+        'Range notes: used for active worksheet, can be a range of 1 cell
+    
+    'Using Cell method:
+    'Cells(1, 1).Value = "DAQO (Ticket: DQ)"
+        'Cells notes: Cells(rows, columns)
+    
+    'Create a header row
+    Cells(3, 1).Value = "Year"
+    Cells(3, 2).Value = "Total Daily Volume"
+    Cells(3, 3).Value = "Return"
+    
+End Sub
