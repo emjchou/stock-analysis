@@ -15,7 +15,6 @@ In 2017, nearly all stocks did well, receiving a positive return percentage, ran
 
 ![Result for 2018 stocks](Resources/VBA_Challenge_2018.png)
 
-
 Before refactoring, it took approximately 0.8086s for the VBA script to run for both the 2017 and 2018 datasets. After refactoring, the run time dropped significantly lower, at approximately 0.09766 seconds for both the 2017 and 2018 datasets (shown above). Thats over 8 times faster! 
 
 ## Summary
